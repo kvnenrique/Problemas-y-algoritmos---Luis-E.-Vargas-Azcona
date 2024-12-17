@@ -1,0 +1,25 @@
+Consider the next facts about the problem
+
+ a) Each vertical break needs to be performed at least once.
+ b) Each horizontal break needs to be performed at least once.
+ c) Each vertical break increases by 1 the factor by which 
+    next horizontal break must be multiplied.
+ d) Each horizontal break increses by 1 the factor by which 
+    next vertical break must be multiplied.
+ e) If we want to preserve the minimun cost for all breaks, 
+    on each break, the next break should be the one that 
+    minimizes the sum for all breaks.
+ f) Let a,b two numbers (costs), and m,n the factors for which we 
+    multiply a and b. Then if a > b,  it implies that:
+
+        a(m) + b(n+1) < a(m+1) + b(n)
+
+    which is obvious if we write the inequality as follows:
+        a(m) + b(n) + b < a(m) + b(n) + a
+
+Conclusion
+
+We need to order the breaks by its costs and then perform each break taking  
+always the grater cost either vertical or horizontal multiplied by its factor 
+that starts at 1, and increasing the factor of the opposite break (horizontal/vertical)
+by 1.

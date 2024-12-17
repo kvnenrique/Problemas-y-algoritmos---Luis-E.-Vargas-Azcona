@@ -1,0 +1,11 @@
+Máximo en un arreglo
+
+Como primer ejemplo de "Diivide y vencerás" veremos un problema que puede
+resultar más sencillo resolverse sin recursión, pero esto es solo para dar
+una idea de cómo aplicar la estrategia.
+
+Planteamiento
+
+Escribe una función que dado un arreglo de enternos {v}, y dados dos enteros {a, b}, regrese
+el número más grande en v[a .. b] (el número más grande en el arreglo que este entre los
+indices {a} y {b}).
