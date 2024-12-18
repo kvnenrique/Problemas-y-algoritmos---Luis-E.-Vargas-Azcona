@@ -1,0 +1,8 @@
+La solución a este problema se conoce como el algoritmo de la 
+búsqueda binaria. 
+
+La idea consiste en ver qué número se encuentra en la mitad
+del intervalo {v[a..b]}. si {x < v[(a+b)/2]} entonces {x}
+se deberá encontrar en la primera mitad del arreglo. Si
+{x > v[(a+b)/2]} entonces {x} se encuentra en la segunda
+mitad.

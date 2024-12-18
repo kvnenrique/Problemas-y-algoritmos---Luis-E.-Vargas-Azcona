@@ -1,0 +1,5 @@
+Problema resulto 4.2.1
+    Escribe una función que dado un arreglo ordenado de manera ascendente, y tres enteros
+    {a},  {b} y {x}, regrese {-1} si {x} no está en en {v[a .. b]} y un entero diciendo en
+    qué indice se encuentra {x} si lo está. Tu programa no deberá de hacer más de 100
+    comparaciones y puedes assumir que {b-a < 1_000_000}.

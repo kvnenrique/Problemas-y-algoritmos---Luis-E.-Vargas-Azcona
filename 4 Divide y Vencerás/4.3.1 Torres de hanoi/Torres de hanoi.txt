@@ -1,0 +1,24 @@
+Problema resulto 4.2.1
+
+El problema de las torres de hanoi es un problema utilizado frecuentemente
+como ejemplo de recursión.
+
+Imagina que tienes 3 postes A, B y C. En el poste A tienes {n} discos de 
+diferente diámetro, acomodados en orden creciente de diámetro desde lo
+más alto hasta lo más bajo.
+
+Solamente puedes mover un disco a la vez desde un poste hasta otro y no
+está permitido poner un disco más grande sobre otro más pequeño. Tu tarea
+es mover todos los discos desde el poste A hasta el poste C.
+ 
+    
+       _       |       |
+      ___      |       |
+     _____     |       |
+    _______    |       |
+    ======= ======= =======
+       A       B       C
+
+Problema: Escribe una función que reciba como parámetro {n} y que imprima
+en pantalla todos los pasos a seguir para mover los discos del poste A 
+al poste C.
