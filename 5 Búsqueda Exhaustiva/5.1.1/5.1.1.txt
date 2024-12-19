@@ -1,0 +1,15 @@
+Escribe una función que dados dos números enteros {n} y {c}, imprima todas
+las cadenas de caracteres de longitud {n} que utilicen solamente las
+primeras {c} letras del alfabeto (todas minúsculas), puedes asumir que 
+{n < 20}.
+
+E.g.
+Entrada
+    n = 2
+    c = 2
+
+Salida
+    aa 
+    ab 
+    ba
+    bb
